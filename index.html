@@ -32,18 +32,18 @@
       <nav class="nav w-full flex justify-center mt-12">
         <div class="custom-container">
           <div class="nav__content"> 
-            <div class="navbar bg-red-500 py-[30px] px-[50px] rounded-full flex justify-between">
+            <div class="navbar rounded-full flex justify-between">
               <div class="navbar-start hidden lg:flex">
-                <ul class="flex gap-7">
-                  <li><a class="text-white font-medium text-[18px]">Home</a></li>
-                  <li><a class="text-white font-medium text-[18px]">About us</a></li>
-                  <li><a class="text-white font-medium text-[18px]">Shop</a></li>
-                  <li><a class="text-white font-medium text-[18px]">All Fruits</a></li>
+                <ul class="flex space-x-7">
+                  <li><a href="#" class="text-white font-medium text-base">Home</a></li>
+                  <li><a href="#" class="text-white font-medium text-base">About us</a></li>
+                  <li><a href="#" class="text-white font-medium text-base">Shop</a></li>
+                  <li><a href="#" class="text-white font-medium text-base">All Fruits</a></li>
                 </ul>
               </div>
               <div class="navbar-center lg:navbar-start">
                 <div class="flex items-center gap-4">
-                  <img class="w-[54px] h-[60px]" src="./assets/images/logo.png" alt="Logo">
+                  <img class="brand" src="./assets/images/logo.png" alt="Logo">
                   <h2 class="text-white font-bold text-[40px]">Fruit Burst</h2>
                 </div>
               </div>
@@ -84,7 +84,55 @@
         </div>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <!-- Hero Section -->
+      <section class="hero pt-14">
+        <div class="custom-container">
+          <div class="hero__content">
+            <div class="carousel w-full my-carousel">
+              <div id="slide1" class="carousel-item relative w-full">
+                <div class="sliderImgWrap">
+                  <img src="./assets/images/banner1.png" class="w-full" />
+                </div>
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide4" class="btn btn-circle z-50">❮</a> 
+                  <a href="#slide2" class="btn btn-circle z-50">❯</a>
+                </div>
+              </div> 
+              <div id="slide2" class="carousel-item relative w-full">
+                <div class="sliderImgWrap">
+                  <img src="./assets/images/banner2.png" class="w-full" />
+                </div>
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide1" class="btn btn-circle z-50">❮</a> 
+                  <a href="#slide3" class="btn btn-circle z-50">❯</a>
+                </div>
+              </div> 
+            </div>
+
+            <div class="hero__cards py-12 px-[70px] bg-white rounded-md flex justify-between flex-wrap gap-4 -mt-20 z-50">
+              <div class="hero__card">
+                <img src="./assets/images/fruit1.png" alt="Fruits">
+              </div>
+              <div class="hero__card">
+                <img src="./assets/images/fruit1.png" alt="Fruits">
+              </div>
+              <div class="hero__card">
+                <img src="./assets/images/fruit1.png" alt="Fruits">
+              </div>
+              <div class="hero__card">
+                <img src="./assets/images/fruit1.png" alt="Fruits">
+              </div>
+              <div class="hero__card">
+                <img src="./assets/images/fruit1.png" alt="Fruits">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+    </main>
     <footer></footer>
   </body>
 </html>
