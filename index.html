@@ -31,25 +31,49 @@
     <header>
       <nav class="nav w-full flex justify-center mt-12">
         <div class="custom-container">
-          <div class="nav__content"> 
+          <div class="nav__content">
             <div class="navbar rounded-full flex justify-between">
               <div class="navbar-start hidden lg:flex">
                 <ul class="flex space-x-7">
-                  <li><a href="#" class="text-white font-medium text-base">Home</a></li>
-                  <li><a href="#" class="text-white font-medium text-base">About us</a></li>
-                  <li><a href="#" class="text-white font-medium text-base">Shop</a></li>
-                  <li><a href="#" class="text-white font-medium text-base">All Fruits</a></li>
+                  <li>
+                    <a href="#" class="text-white font-medium text-base"
+                      >Home</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-white font-medium text-base"
+                      >About us</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-white font-medium text-base"
+                      >Shop</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-white font-medium text-base"
+                      >All Fruits</a
+                    >
+                  </li>
                 </ul>
               </div>
               <div class="navbar-center lg:navbar-start">
                 <div class="flex items-center gap-4">
-                  <img class="brand" src="./assets/images/logo.png" alt="Logo">
+                  <img
+                    class="brand"
+                    src="./assets/images/logo.png"
+                    alt="Logo"
+                  />
                   <h2 class="text-white font-bold text-[40px]">Fruit Burst</h2>
                 </div>
               </div>
               <div class="navbar-end">
                 <div class="hidden lg:block">
-                  <input type="text" placeholder="Type here" class="input input-bordered rounded-full ring-0 w-full max-w-xs" />
+                  <input
+                    type="text"
+                    placeholder="Type here"
+                    class="input input-bordered rounded-full ring-0 w-full max-w-xs"
+                  />
                 </div>
                 <div class="dropdown">
                   <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -94,44 +118,93 @@
                 <div class="sliderImgWrap">
                   <img src="./assets/images/banner1.png" class="w-full" />
                 </div>
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                  <a href="#slide4" class="btn btn-circle z-50">❮</a> 
+                <div
+                  class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+                >
+                  <a href="#slide4" class="btn btn-circle z-50">❮</a>
                   <a href="#slide2" class="btn btn-circle z-50">❯</a>
                 </div>
-              </div> 
+              </div>
               <div id="slide2" class="carousel-item relative w-full">
                 <div class="sliderImgWrap">
                   <img src="./assets/images/banner2.png" class="w-full" />
                 </div>
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                  <a href="#slide1" class="btn btn-circle z-50">❮</a> 
+                <div
+                  class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+                >
+                  <a href="#slide1" class="btn btn-circle z-50">❮</a>
                   <a href="#slide3" class="btn btn-circle z-50">❯</a>
                 </div>
-              </div> 
+              </div>
             </div>
 
-            <div class="hero__cards py-12 px-[70px] bg-white rounded-md flex justify-between flex-wrap gap-4 -mt-20 z-50">
+            <div
+              class="hero__cards py-12 px-[70px] bg-white rounded-md flex justify-between flex-wrap gap-4 -mt-20 z-50"
+            >
               <div class="hero__card">
-                <img src="./assets/images/fruit1.png" alt="Fruits">
+                <img src="./assets/images/fruit1.png" alt="Fruits" />
               </div>
               <div class="hero__card">
-                <img src="./assets/images/fruit1.png" alt="Fruits">
+                <img src="./assets/images/fruit1.png" alt="Fruits" />
               </div>
               <div class="hero__card">
-                <img src="./assets/images/fruit1.png" alt="Fruits">
+                <img src="./assets/images/fruit1.png" alt="Fruits" />
               </div>
               <div class="hero__card">
-                <img src="./assets/images/fruit1.png" alt="Fruits">
+                <img src="./assets/images/fruit1.png" alt="Fruits" />
               </div>
               <div class="hero__card">
-                <img src="./assets/images/fruit1.png" alt="Fruits">
+                <img src="./assets/images/fruit1.png" alt="Fruits" />
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      
+      <!-- Deal Section -->
+      <section class="deal">
+        <div class="custom-container">
+          <div class="deal__content">
+            <div class="deal__head">
+              <h2 class="deal__title">Deal of the day</h2>
+              <p class="deal__text">
+                Contrary to popular belief, is not simply random text. It has
+                roots in a piece of classical Latin literature from 45 BC,
+                making it over 2000 years old.
+              </p>
+            </div>
+
+            <div class="deal__date">
+              <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span style="--value: 15"></span>
+                  </span>
+                  days
+                </div>
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span style="--value: 10"></span>
+                  </span>
+                  hours
+                </div>
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span style="--value: 24"></span>
+                  </span>
+                  min
+                </div>
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span style="--value: 44"></span>
+                  </span>
+                  sec
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
